@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.json({ success: "Server Started on 4000" });
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 mongoose
   .connect(process.env.MONGODB_PORT, {
